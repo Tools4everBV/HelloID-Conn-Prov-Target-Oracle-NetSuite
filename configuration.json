@@ -1,0 +1,74 @@
+[
+    {
+        "key": "BaseUrl",
+        "type": "input",
+        "defaultValue": "",
+        "templateOptions": {
+            "label": "BaseUrl",
+            "description": "The URL to the API.",
+            "required": true
+        }
+    },
+    {
+        "key": "ConsumerKey",
+        "type": "input",
+        "defaultValue": "",
+        "templateOptions": {
+            "label": "ConsumerKey",
+            "description": "The ConsumerKey to connect to the API",
+            "required": true
+        }
+    },
+    {
+        "key": "ConsumerSecret",
+        "type": "input",
+        "defaultValue": "",
+        "templateOptions": {
+            "type": "password",
+            "label": "ConsumerSecret",
+            "description": "The ConsumerSecret to connect to the API",
+            "required": true
+        }
+    },
+    {
+        "key": "AccessToken",
+        "type": "input",
+        "defaultValue": "",
+        "templateOptions": {
+            "label": "AccessToken",
+            "description": "The AccessToken to connect to the API",
+            "required": true
+        }
+    },
+    {
+        "key": "TokenSecret",
+        "type": "input",
+        "defaultValue": "",
+        "templateOptions": {
+            "type": "password",
+            "label": "TokenSecret",
+            "description": "The TokenSecret to connect to the API",
+            "required": true
+        }
+    },
+    {
+        "key": "Realm",
+        "type": "input",
+        "defaultValue": "",
+        "templateOptions": {
+            "label": "Realm",
+            "description": "The Realm to connect to the API",
+            "required": true
+        }
+    },
+    {
+        "key": "IsDebug",
+        "type": "checkbox",
+        "defaultValue": true,
+        "templateOptions": {
+            "label": "Toggle debug logging",
+            "description": "When toggled, debug logging will be displayed",
+            "required": false
+        }
+    }
+]

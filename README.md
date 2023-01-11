@@ -44,14 +44,14 @@ The following settings are required to connect to the API.
 | ConsumerSecret | The ConsumerSecret to connect to the API | Yes       |
 | AccessToken    | The AccessToken to connect to the API    | Yes       |
 | TokenSecret    | The TokenSecret to connect to the API    | Yes       |
-| Realm          | The TokenSecret to connect to the API    | Yes       |
+| Realm          | The Realm to connect to the API          | Yes       |
 | BaseUrl        | The URL to the API                       | Yes       |
 
 ### Prerequisites
  - Access to the API (Connection Settings available)
  - A mapping file or a Source mapping property for the department in NetSuite. *(The connector preforms a Lookup on the Department name to gather the Department id.)*  **(Requires Access to read Departments: ```department?q=name is Algemeen```)**
- - A CustomForm (id) to create employees
- - A subsidiary (id) (DochterOnderneming) to create employees
+ - A CustomForm (id) to create employees *(Hardcoded property in account object)*
+ - A subsidiary (id) (DochterOnderneming) to create employees *(Hardcoded property in account object)*
  -
 
 

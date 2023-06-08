@@ -6,9 +6,9 @@
 | :information_source: information                                                                                             |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | This repository contains the connector and configuration code only. The implementer is responsible to acquire the connection details such as username, password, certificate, etc. You might even need to sign a contract or agreement with the supplier before implementing this connector. Please contact the client's application manager to coordinate the connector requirements. |
-
+<br />
 <p align="center">
-  <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTaqK34Oey017kx7Fs31pGy0gkSOUSOIzPvB4d0d1ki2c0wmRnJ">
+  <img src="https://www.tools4ever.nl/connector-logos/oraclenetsuite-logo.png">
 </p>
 
 ## Table of contents
